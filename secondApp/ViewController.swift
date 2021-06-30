@@ -16,6 +16,12 @@ public class ViewController123: UIViewController, Storyboardable {
 
 }
 
+public class Temp {
+    public func test() {
+        print("test")
+    }
+}
+
 protocol Storyboardable {
 
     static var defaultStoryboardName: String { get }
