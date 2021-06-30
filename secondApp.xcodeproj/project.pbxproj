@@ -13,7 +13,6 @@
 		3BDD2F58268D0E73009750CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD2F56268D0E73009750CD /* Main.storyboard */; };
 		3BDD2F5A268D0E74009750CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD2F59268D0E74009750CD /* Assets.xcassets */; };
 		3BDD2F5D268D0E74009750CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD2F5B268D0E74009750CD /* LaunchScreen.storyboard */; };
-		3BDD2F65268D0EE8009750CD /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD2F64268D0EE8009750CD /* TestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,7 @@
 		3BDD2F59268D0E74009750CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BDD2F5C268D0E74009750CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BDD2F5E268D0E74009750CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BDD2F64268D0EE8009750CD /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		3BDD2F66268D0FC7009750CD /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyLibrary; path = ../MyLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +41,7 @@
 		3BDD2F44268D0E73009750CD = {
 			isa = PBXGroup;
 			children = (
+				3BDD2F66268D0FC7009750CD /* MyLibrary */,
 				3BDD2F4F268D0E73009750CD /* secondApp */,
 				3BDD2F4E268D0E73009750CD /* Products */,
 			);
@@ -65,7 +65,6 @@
 				3BDD2F59268D0E74009750CD /* Assets.xcassets */,
 				3BDD2F5B268D0E74009750CD /* LaunchScreen.storyboard */,
 				3BDD2F5E268D0E74009750CD /* Info.plist */,
-				3BDD2F64268D0EE8009750CD /* TestData.swift */,
 			);
 			path = secondApp;
 			sourceTree = "<group>";
@@ -143,7 +142,6 @@
 				3BDD2F55268D0E73009750CD /* ViewController.swift in Sources */,
 				3BDD2F51268D0E73009750CD /* AppDelegate.swift in Sources */,
 				3BDD2F53268D0E73009750CD /* SceneDelegate.swift in Sources */,
-				3BDD2F65268D0EE8009750CD /* TestData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
