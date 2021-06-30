@@ -7,13 +7,34 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController, Storyboardable {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
+}
+
+protocol Storyboardable {
+
+    static var defaultStoryboardName: String { get }
+}
+
+extension Storyboardable where Self: UIViewController {
+
+    static var defaultStoryboardName: String {
+        return String(describing: self)
+    }
+
+    static func storyboardViewController() -> Self {
+        let storyboard = UIStoryboard(name: defaultStoryboardName, bundle: Bundle(for: Self.self))
+
+        guard let viewController = storyboard.instantiateInitialViewController() as? Self else {
+            fatalError("Could not instantiate initial storyboard with name: \(defaultStoryboardName)")
+        }
+
+        return viewController
+    }
 }
 
