@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension String {
+extension String {
     func setNew() -> String {
         return self + " Hello 12345"
     }
