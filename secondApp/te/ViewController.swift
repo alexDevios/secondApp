@@ -22,14 +22,14 @@ public class Temp {
     }
 }
 
-protocol Storyboardable {
+public protocol Storyboardable {
 
     static var defaultStoryboardName: String { get }
 }
 
 extension Storyboardable where Self: UIViewController {
 
-    static var defaultStoryboardName: String {
+    public static var defaultStoryboardName: String {
         return String(describing: self)
     }
 
