@@ -9,6 +9,6 @@ import Foundation
 
 public extension String {
     func setNew() -> String {
-        return self + " Hello!"
+        return self + " Hello 12345"
     }
 }
