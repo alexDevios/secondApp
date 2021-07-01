@@ -11,6 +11,7 @@ public class ViewController123: UIViewController, Storyboardable {
 
     public override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .red
     }
 
     @IBAction func press(_ sender: Any) {
