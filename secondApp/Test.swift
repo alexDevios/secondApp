@@ -7,6 +7,10 @@
 
 import Foundation
 import UIKit
+
 public class Test: UIViewController, Storyboardable {
 
+        public override func viewDidLoad() {
+            super.viewDidLoad()
+        }
 }
