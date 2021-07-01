@@ -22,6 +22,7 @@ let package = Package(
         .target(
             name: "secondApp",
             path: "./secondApp/",
-            exclude: ["Info.plist"]),
+            exclude: ["Info.plist",
+            "AppDelegate.swift"]),
     ]
 )
