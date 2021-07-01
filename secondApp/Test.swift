@@ -7,6 +7,6 @@
 
 import Foundation
 import UIKit
-class Test: UIViewController, Storyboardable {
-    
+public class Test: UIViewController, Storyboardable {
+
 }
