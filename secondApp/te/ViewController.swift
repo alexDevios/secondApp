@@ -14,8 +14,8 @@ public class ViewController123: UIViewController, Storyboardable {
     }
 
     @IBAction func press(_ sender: Any) {
-        let vc = Test.storyboardViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
+//        let vc = Test.storyboardViewController()
+//        self.navigationController?.pushViewController(vc, animated: true)
     }
 
 }
